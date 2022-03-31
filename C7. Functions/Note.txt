@@ -1,0 +1,7 @@
+Trong positional argument, thì các tham số truyền vào có dạng là một tuple. 
+Trong keyword argument, thì các tham số truyền vào có dạng là một dict. (keyword + value)
+
+A * argument can only appear as the last positional argument in a function definition.
+A ** argument can only appear as the last argument. 
+A subtle aspect of function definitions is that arguments can still appear after a * argument.
+
