@@ -20,7 +20,11 @@ if __name__ == '__main__':
     print(next(c))          # run the first yield and emit a value
     print(next(c))          # run the second yield and emit the second value 
     print(next(c))          # run the third yield 
-    print(next(c))          # print 'Done!' to the screen and raise StopIteration automatically 
+    # print(next(c))          # print 'Done!' to the screen and raise StopIteration automatically 
+
+    c = countdown(3)
+    for val in c:           # use generator in a for loop, StopIteration will not appear
+        print(val)
 
 
 
